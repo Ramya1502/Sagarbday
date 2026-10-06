@@ -3931,16 +3931,12 @@ button:focus {
 
 .candle {
     position: absolute;
+    z-index: 10;
 
     left: 50%;
-    top: 48px;
-
-    width: 25px;
-    height: 82px;
+    bottom: 100px;
 
     transform: translateX(-50%);
-
-    z-index: 20;
 }
 
 
